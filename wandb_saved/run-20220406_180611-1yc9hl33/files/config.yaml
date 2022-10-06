@@ -1,0 +1,137 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.10
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.11
+    start_time: 1649261171
+    t:
+      1:
+      - 1
+      - 5
+      3:
+      - 16
+      4: 3.7.11
+      5: 0.12.10
+      8:
+      - 5
+activation:
+  desc: null
+  value: CELU(alpha=1.0)
+archi:
+  desc: null
+  value: edge_conv
+batch_size:
+  desc: null
+  value: 128
+betas_d:
+  desc: null
+  value:
+  - 0.0
+  - 0.99
+betas_g:
+  desc: null
+  value:
+  - 0.0
+  - 0.99
+comment:
+  desc: null
+  value: cheat
+cycles:
+  desc: null
+  value: true
+data_path:
+  desc: null
+  value: /home/users/b/boget3/data/
+dataset:
+  desc: null
+  value: Fingerprint
+dataset_version:
+  desc: null
+  value: arom
+debug:
+  desc: null
+  value: false
+device:
+  desc: null
+  value: cuda
+discretizing_method:
+  desc: null
+  value: null
+discriminator:
+  desc: null
+  value: "Disc_node3(\n  (layers): Sequential(\n    (0): GNN2()\n    (1): GNN2()\n\
+    \    (2): GNN2()\n  )\n  (linear): mlp_sn(\n    (layers): Sequential(\n      (0):\
+    \ Linear(in_features=64, out_features=64, bias=True)\n      (1): CELU(alpha=1.0)\n\
+    \      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): CELU(alpha=1.0)\n\
+    \      (4): Linear(in_features=64, out_features=1, bias=True)\n    )\n  )\n)"
+discriminator_end:
+  desc: null
+  value: node
+epochs:
+  desc: null
+  value: 100000
+generator:
+  desc: null
+  value: "Gen_node3(\n  (layers): Sequential(\n    (0): GNN2()\n    (1): GNN2()\n\
+    \    (2): GNN2()\n    (3): GNN2()\n    (4): GNN2()\n    (5): GNN2()\n    (6):\
+    \ GNN2()\n  )\n)"
+layer_size:
+  desc: null
+  value: 64
+learning_rate_d:
+  desc: null
+  value: 1.0e-05
+learning_rate_decay:
+  desc: null
+  value: 0.9875
+learning_rate_g:
+  desc: null
+  value: 1.0e-05
+max_mols:
+  desc: null
+  value: 10000000.0
+n_layers_d:
+  desc: null
+  value: 3
+n_layers_g:
+  desc: null
+  value: 6
+noise_dim:
+  desc: null
+  value: 32
+normalize:
+  desc: null
+  value: true
+path_model_to_load:
+  desc: null
+  value: null
+random_labels:
+  desc: null
+  value: false
+run_on:
+  desc: null
+  value: asus
+sizes:
+  desc: null
+  value:
+    batch: 128
+    batch_test: 500
+    cycles: 5
+    edge_types: 2
+    n_nodes: 2
+    node_types: 2
+    noise: 32
+tau:
+  desc: null
+  value: 1
+tau_decay:
+  desc: null
+  value: 1
+train_step:
+  desc: null
+  value: nodes

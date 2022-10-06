@@ -1,0 +1,20 @@
+{
+    "os": "Linux-3.10.0-1160.49.1.el7.x86_64-x86_64-with-debian-buster-sid",
+    "python": "3.7.11",
+    "heartbeatAt": "2022-04-06T11:25:40.949683",
+    "startedAt": "2022-04-06T11:25:39.640359",
+    "docker": null,
+    "gpu": "NVIDIA TITAN Xp",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [
+        "--data_path=/home/users/b/boget3/data/"
+    ],
+    "state": "running",
+    "program": "/home/users/b/boget3/CGAN-graph-generic/main.py",
+    "codePath": "CGAN-graph-generic/main.py",
+    "host": "gpu009.baobab",
+    "username": "boget3",
+    "executable": "/opt/conda/bin/python3"
+}
